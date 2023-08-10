@@ -65,29 +65,7 @@ const Login: React.FC = () => {
       }
 }, [userJSON]);
 
-   // const[code,setcode]=useState('')
-   // const [searchParams, setSearchParams] = useSearchParams();
-//     useEffect(() => {
-//     let config1 = {
-//       method: "get",
-//       maxBodyLength: Infinity,
-//       url: `https://trial-3955846.okta.com/oauth2/default/v1/authorize?client_id=0oa6tkkokcYByqOsx697&response_type=code&response_mode=query&scope=openid email profile&redirect_uri=com.okta.trial-3955846:/callback&state=200&nonce=500`,
-//       headers: {
-//         // Accept: "application/json",
-//         // Authorization: "Basic " + base64ClientCredentials,
-//         // "Content-Type": "application/x-www-form-urlencoded",
-//       },
-    
-//     };
-//     axios
-//       .request(config1).then((response)=>{
-//    //  console.log(response);
-//      window.location.href=response;
-//       })
-//     }, [])
-//const resp = searchParams.get("code");
-//let codee;
-
+  
 useEffect(() => {
   
   }, []);
