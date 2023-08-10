@@ -1,0 +1,26 @@
+{
+    "appId": "io.ionic.starter",
+    "appName": "SSO",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "dist",
+    "plugins": {
+      "SplashScreen": {
+        "launchShowDuration": 0
+      },
+      "CustomURLScheme": {
+        "ios": {
+          "scheme": "myapp"
+        },
+        "android": {
+          "scheme": "https"
+        }
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
